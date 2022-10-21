@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+.hvilket-fag {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.hvilket-fag h3 {
+    margin: 0;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: indianred;
+}
+
+.alle-bilder-container {
+    display: inline;
+}
+
+.bilde-container img {
+    width: 24.9%;
+    padding: 0.5rem;
+    float: left;
+    transition: ease 1s;
+    border-radius: 1rem;
+}
+
+.om-oppgaven-tittel {
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.om-oppgaven-container {
+    display: flex;
+    justify-content: center;
+}
+
+.om-oppgaven-tekst {
+    padding: 0.5rem;
+    margin: 1rem;
+    background-color: rgb(136, 103, 236);
+    border-radius: 1.5rem;
+    font-size: 1.25rem;
+    flex-basis: 66%;
+}
+
+@media screen and (max-width:767px) {
+    .bilde-container img {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .bilde-container img {
+        width: 100%;
+    }
+}

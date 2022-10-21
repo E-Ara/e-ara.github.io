@@ -1,0 +1,76 @@
+/*Mobilvennlig*/
+  @media screen and (max-width: 767px) {
+    .Nav-Meny {
+      padding: 20px 10px !important;
+    }
+    li {
+      float: none;
+      justify-content: center;
+      text-align: center;
+    }
+    .FloatRight {
+      float: none;
+      justify-content: center;
+      text-align: center;
+    }
+    .Bilde1Settings {
+      height: 75vw;
+    }
+    .Bilde2Settings {
+      height: 75vw;
+    }
+    .Container {
+      flex-direction: column;
+    }
+    .Informasjon1-container {
+      flex-direction: column;
+    }
+    .Informasjon2-container {
+      flex-direction: column;
+    }
+  }
+  
+  @media screen and (min-width:768px) {
+    .Bilde1Settings {
+      height: 30vw;
+    }
+    .Bilde2Settings {
+      height: 30vw;
+    }
+  }
+  /*Slutt på mobilvennlig*/
+  .Container {
+    display: flex;
+    justify-content:space-evenly;
+    padding-top: 3rem;
+    padding-bottom: 1.2rem;
+  }
+ 
+  .Bilde1Settings {
+    justify-content: center;
+    border-radius: 1rem;
+    filter: grayscale(100%);
+    transition: all 1s ease;
+  }
+
+  .Bilde1Settings, h1 {
+    text-align: center;
+    color: white;
+  }
+
+  .Bilde1Settings:hover {
+    filter: grayscale(0%);
+    cursor: pointer;
+  }
+
+  .Bilde2Settings {
+    justify-content: center;
+    border-radius: 1rem;
+    filter: grayscale(100%);
+    transition: all 1s ease;
+  }
+
+  .Bilde2Settings:hover {
+    filter: grayscale(0%);
+    cursor: pointer;
+  }

@@ -1,0 +1,37 @@
+@media screen and (max-width: 47.9375rem) {
+    .Nav-Meny {
+      padding: 20px 10px !important;
+    }
+    li {
+      float: none;
+      justify-content: center;
+      text-align: center;
+    }
+    .FloatRight {
+      float: none;
+      justify-content: center;
+      text-align: center;
+    }
+    .Info-Container {
+        flex-direction: column;
+    }
+  }
+
+  .Info-Container {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+  }
+
+  .Bilde1Settings {
+    height: 25rem;
+    width: 31.25rem;
+    border-radius: 1rem;
+  }
+
+  .info-content {
+    color: white;
+    font-size: 1.25rem;
+    font-family: 'Times New Roman', Times, serif;
+  }

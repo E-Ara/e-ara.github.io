@@ -1,0 +1,84 @@
+/*Gjør at teksten ikke oppfører seg som en liste*/
+.Nav-Meny {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 5px;
+  }
+  /*Linker til andre dokument*/
+  li {
+    float: left;
+  }
+/*"GitHub knappen*/
+.FloatRight {
+    float:right;
+  }
+/*Style link-knappene*/
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px 20px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: rgb(136, 103, 236);
+    color: #333;
+  }
+
+  .HomeButton:hover .star {
+    color: yellow;
+  }
+
+  li a, .Drop-Knapp {
+    display: inline-block;
+    color: white;
+    text-align: right;
+    vertical-align: auto;
+    padding: 14px 16px;
+  }
+
+  .Dropdown-Content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 10rem;
+    z-index: 1;
+  }
+
+  li .Dropdown-Fag {
+    display: inline-block;
+  }
+
+  .Dropdown-Fag:hover .Dropdown-Content {
+    display: block;
+  }
+/*Gjør topp-menyen mobil-vennlig*/
+@media screen and (max-width:767px) {
+  .Nav-Meny {
+    padding: 20px 10px !important;
+  }
+  li {
+    float: none;
+    justify-content: center;
+    text-align: center;
+  }
+  .FloatRight {
+    float: none;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+.aktiv-fane {
+  background-color: rgb(136, 103, 236);
+  color: #333;
+  border-width: 2px;
+  padding: 12px 14px;
+  border-color: #333;
+  border-style: dashed;
+}

@@ -1,0 +1,31 @@
+/*Bakgrunnsfarge for hele nettsiden*/
+body {
+    background-color: #696969;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+  
+header h1 {
+  color: white;
+  font-size: 3rem;
+  font-family:'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  padding: 1rem;
+  margin: 0;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  color: white;
+  background-color: #333;
+  padding: 5px;
+  border-radius: 1rem;
+}
+  
+footer a {
+  color: white;
+}
