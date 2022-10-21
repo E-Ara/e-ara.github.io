@@ -1,3 +1,7 @@
+footer {
+  margin-top: 4rem;
+}
+
 @media screen and (max-width: 47.9375rem) {
     .Nav-Meny {
       padding: 20px 10px !important;
