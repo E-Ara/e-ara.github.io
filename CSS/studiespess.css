@@ -1,37 +1,13 @@
-@media screen and (max-width:450px) {
-    header h1 {
-        font-size: 1.75rem;
+/*Dytter marginen ned på stor skjerm*/
+@media screen and (min-width: 767px) {
+    .utdanning-container {
+        margin-bottom: 15.9rem;
     }
 }
-
-.utdanning-container {
-    display: flex;
-    justify-content: space-around;
-}
-
-.om-utdanning-kolonne {
-    padding: 1rem;
-    margin: 1rem;
-    background-color: rgb(136, 103, 236);
-    border-radius: 1.5rem;
-    font-size: 1.15rem;
-    flex-basis: 33%;
-}
-
-.kvaliteter-kolonne {
-    padding: 1rem;
-    margin: 1rem;
-    background-color: rgb(136, 103, 236);
-    border-radius: 1.5rem;
-    font-size: 1.15rem;
-    flex-basis: 33%;
-}
-
-.vei-videre-kolonne {
-    padding: 1rem;
-    margin: 1rem;
-    background-color: rgb(136, 103, 236);
-    border-radius: 1.5rem;
-    font-size: 1.15rem;
-    flex-basis: 33%;
-}
+  
+  /*Minsker størrelsen på tittelen på mindre skjermer*/
+  @media screen and (max-width:450px) {
+      header h1 {
+          font-size: 1.75rem;
+      }
+  }

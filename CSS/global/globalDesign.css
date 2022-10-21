@@ -30,6 +30,7 @@ footer a {
   color: white;
 }
 
+
 /*For de ulike linjene*/
 .type-utdanning-container {
   display: inline-flex;
@@ -44,14 +45,42 @@ footer a {
   background-color: indianred;
 }
 
+/*Gjør at utdanningsboksene blir stablet oppå hverandre på mindre skjermer*/
 @media screen and (max-width:767px) {
   .utdanning-container {
       flex-direction: column;
   }
 }
 
-@media screen and (min-width: 767px) {
-  .utdanning-container {
-      margin-bottom: 15.5rem;
-  }
+.utdanning-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+/*De ulike kolonnene på de ulike linjene*/
+.om-utdanning-kolonne {
+  padding: 1rem;
+  margin: 1rem;
+  background-color: rgb(136, 103, 236);
+  border-radius: 1.5rem;
+  font-size: 1.15rem;
+  flex-basis: 33%;
+}
+
+.kvaliteter-kolonne {
+  padding: 1rem;
+  margin: 1rem;
+  background-color: rgb(136, 103, 236);
+  border-radius: 1.5rem;
+  font-size: 1.15rem;
+  flex-basis: 33%;
+}
+
+.vei-videre-kolonne {
+  padding: 1rem;
+  margin: 1rem;
+  background-color: rgb(136, 103, 236);
+  border-radius: 1.5rem;
+  font-size: 1.15rem;
+  flex-basis: 33%;
 }
