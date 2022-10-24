@@ -1,0 +1,13 @@
+.hjemmenett-container {
+    text-align: center;
+}
+
+.hjemmenett-kart {
+    width: 60%;
+}
+
+@media screen and (max-width: 767px) {
+    .hjemmenett-kart {
+        width: 100%;
+    }
+}

@@ -31,7 +31,7 @@ footer a {
 }
 
 
-/*For de ulike linjene*/
+/*CSS for de ulike linjene*/
 .type-utdanning-container {
   display: inline-flex;
   justify-content: center;
@@ -83,4 +83,25 @@ footer a {
   border-radius: 1.5rem;
   font-size: 1.15rem;
   flex-basis: 33%;
+}
+
+/*CSS som er likt for prosjektene*/
+.om-oppgaven-tittel {
+  color: white;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.om-oppgaven-container {
+  display: flex;
+  justify-content: center;
+}
+
+.om-oppgaven-tekst {
+  padding: 0.5rem;
+  margin: 1rem;
+  background-color: rgb(136, 103, 236);
+  border-radius: 1.5rem;
+  font-size: 1.25rem;
+  flex-basis: 66%;
 }
