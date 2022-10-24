@@ -9,7 +9,7 @@ header h1 {
 }
 
 footer {
-  margin-top: 8.3rem;
+  margin-top: 7rem;
 }
 
 .Prosjekter-Flexcontainer {
@@ -59,6 +59,15 @@ footer {
 .Prosjekt3-tekst {
   color: white;
   text-align: center
+}
+
+.fag-boks {
+  color: black;
+  margin-top: 0.5rem;
+  padding: 0.25rem;
+  text-align: center;
+  background-color: aquamarine;
+  border-radius: 1rem;
 }
 
 @media screen and (min-width: 767px) {
