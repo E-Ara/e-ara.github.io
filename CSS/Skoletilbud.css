@@ -17,33 +17,20 @@
       justify-content: center;
       text-align: center;
   }
-  .Kolonne {
-      max-width: 100% !important;
-  }
   .topp-tekst {
     font-size: 120% !important;
   }
 }
 
-@media screen and (max-width: 1024px) {
-  .tilbud-container h3 {
-    font-size: 2vw !important;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .tilbud-container h3 {
-    font-size: 3vw !important;
-  }
-
-  .img {
-    width: 70% !important;
-  }
-}
-
 @media screen and (max-width: 500px) {
-  .topp-tekst {
-    font-size: 100% !important;
+  .tilbud-container div {
+    width: 75vw !important;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .tilbud-container div {
+    width: 60vw !important;
   }
 }
 
@@ -55,22 +42,19 @@
 .topp-tekst {
   font-size: 150%;
   background-color: rgb(136, 103, 236);
-  padding: 1.2rem;
+  padding: 1rem;
   border-radius: 1rem;
 }
 
 .tilbud-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 3fr));
+  width: 98vw;
 }
 
 .tilbud-container div {
-  text-align: center;
   color: white;
-}
-
-.tilbud-container h3 {
-  font-size: 1.5vw;
+  text-align: center;
 }
 
 .img {
