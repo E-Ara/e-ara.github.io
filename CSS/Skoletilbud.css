@@ -2,60 +2,78 @@
   box-sizing: border-box;
 }
 
-    /*Mobil-vennlig*/
-    @media screen and (max-width: 767px) {
-      .Nav-Meny {
-        padding: 20px 10px !important;
-      }
-      li {
-        float: none;
-        justify-content: center;
-        text-align: center;
-      }
-      .FloatRight {
-        float: none;
-        justify-content: center;
-        text-align: center;
-      }
-      .Kolonne {
-        max-width: 100% !important;
-      }
-    }
+/*Mobil-vennlig*/
+@media screen and (max-width: 767px) {
+  .Nav-Meny {
+      padding: 20px 10px !important;
+  }
+  li {
+      float: none;
+      justify-content: center;
+      text-align: center;
+  }
+  .FloatRight {
+      float: none;
+      justify-content: center;
+      text-align: center;
+  }
+  .Kolonne {
+      max-width: 100% !important;
+  }
+  .topp-tekst {
+    font-size: 120% !important;
+  }
+}
 
-.Kolonne {
+@media screen and (max-width: 1024px) {
+  .tilbud-container h3 {
+    font-size: 2vw !important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .tilbud-container h3 {
+    font-size: 3vw !important;
+  }
+
+  .img {
+    width: 70% !important;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .topp-tekst {
+    font-size: 100% !important;
+  }
+}
+
+.topp-tekst-container {
   display: flex;
-  flex-direction: column;
-  max-width: 50%;
-  text-align: center;
-  padding: 1rem;
-}
-
-.Tilbud-container {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
-}
-
-.Tilbud-container h3 {
-  color: white;
-  font-family: 'Times New Roman', Times, serif;
-  font-weight: bold;
-}
-
-.Kolonne img {
-  width: 80%;
-  vertical-align: middle;
-  border-radius: 1rem;
-}
-
-.topp-tekst {
-  display: inline-flex;
   justify-content: center;
 }
 
-.topp-tekst p {
-  font-size: 1.5rem;
+.topp-tekst {
+  font-size: 150%;
   background-color: rgb(136, 103, 236);
   padding: 1.2rem;
   border-radius: 1rem;
+}
+
+.tilbud-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 3fr));
+}
+
+.tilbud-container div {
+  text-align: center;
+  color: white;
+}
+
+.tilbud-container h3 {
+  font-size: 1.5vw;
+}
+
+.img {
+  width: 95%;
+  border-radius: 2rem;
 }
