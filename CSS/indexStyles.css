@@ -1,4 +1,4 @@
-/*Mobilvennlig*/
+/*Gjør siden mobilvennlig*/
   @media screen and (max-width: 767px) {
     .Nav-Meny {
       padding: 20px 10px !important;
@@ -29,7 +29,7 @@
       flex-direction: column;
     }
   }
-  
+  /*Skalerer bildene riktig på større skjermer*/
   @media screen and (min-width:768px) {
     .Bilde1Settings {
       height: 30vw;
@@ -38,7 +38,8 @@
       height: 30vw;
     }
   }
-  /*Slutt på mobilvennlig*/
+
+/*Konteiner med de to bildene*/
   .Container {
     display: flex;
     justify-content:space-evenly;
@@ -58,6 +59,7 @@
     color: white;
   }
 
+/*Gir bildet farge ved "hover*/
   .Bilde1Settings:hover {
     filter: grayscale(0%);
     cursor: pointer;
@@ -70,11 +72,8 @@
     transition: all 1s ease;
   }
 
+/*Gir bildet farge ved "hover*/
   .Bilde2Settings:hover {
     filter: grayscale(0%);
     cursor: pointer;
-  }
-
-  .copyright {
-    justify-content: right;
   }

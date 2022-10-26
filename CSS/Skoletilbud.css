@@ -24,13 +24,7 @@
 
 @media screen and (max-width: 500px) {
   .tilbud-container div {
-    width: 75vw !important;
-  }
-}
-
-@media screen and (max-width: 420px) {
-  .tilbud-container div {
-    width: 60vw !important;
+    width: 80vw !important;
   }
 }
 
