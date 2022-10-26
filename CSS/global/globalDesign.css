@@ -76,45 +76,45 @@ li .Dropdown-Fag {
 .Dropdown-Fag:hover .Dropdown-Content {
   display: block;
 }
+
 /*Gjør topp-menyen mobil-vennlig*/
 @media screen and (max-width:767px) {
-.Nav-Meny {
-  padding: 20px 10px !important;
-}
-li {
-  float: none;
-  justify-content: center;
-  text-align: center;
-}
-.FloatRight {
-  float: none;
-  justify-content: center;
-  text-align: center;
-}
-}
-
-.aktiv-fane {
-background-color: rgb(136, 103, 236);
-color: #333;
-border-width: 2px;
-padding: 12px 14px;
-border-color: #333;
-border-style: dashed;
-}
-
-footer {
-  display: flex;
-  justify-content: center;
-  color: white;
-  background-color: #333;
-  padding: 5px;
-  border-radius: 1rem;
-}
+  .Nav-Meny {
+    padding: 20px 10px !important;
+    }
+  li {
+    float: none;
+    justify-content: center;
+    text-align: center;
+    }
+  .FloatRight {
+    float: none;
+    justify-content: center;
+    text-align: center;
+    }
+  }
   
-footer a {
-  color: white;
-}
-
+  .aktiv-fane {
+  background-color: rgb(136, 103, 236);
+  color: #333;
+  border-width: 2px;
+  padding: 12px 14px;
+  border-color: #333;
+  border-style: dashed;
+  }
+  
+  footer {
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: #333;
+    padding: 5px;
+    border-radius: 1rem;
+  }
+    
+  footer a {
+    color: white;
+  }
 
 /*CSS for de ulike linjene*/
 .type-utdanning-container {

@@ -1,18 +1,5 @@
 /*Gjør siden mobilvennlig*/
   @media screen and (max-width: 767px) {
-    .Nav-Meny {
-      padding: 20px 10px !important;
-    }
-    li {
-      float: none;
-      justify-content: center;
-      text-align: center;
-    }
-    .FloatRight {
-      float: none;
-      justify-content: center;
-      text-align: center;
-    }
     .Bilde1Settings {
       height: 75vw;
     }

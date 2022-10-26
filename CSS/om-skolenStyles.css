@@ -1,23 +1,11 @@
 footer {
-  margin-top: 4rem;
+  margin-top: 8.6vw;
 }
 
 @media screen and (max-width: 47.9375rem) {
-    .Nav-Meny {
-      padding: 20px 10px !important;
-    }
-    li {
-      float: none;
-      justify-content: center;
-      text-align: center;
-    }
-    .FloatRight {
-      float: none;
-      justify-content: center;
-      text-align: center;
-    }
     .Info-Container {
         flex-direction: column;
+        align-items: center;
     }
   }
 
@@ -29,8 +17,7 @@ footer {
   }
 
   .Bilde1Settings {
-    height: 25rem;
-    width: 31.25rem;
+    width: 28rem;
     border-radius: 1rem;
   }
 
