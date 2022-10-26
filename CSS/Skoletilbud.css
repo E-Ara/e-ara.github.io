@@ -22,11 +22,13 @@
   }
 }
 
-@media screen and (max-width: 500px) {
+/*Skalerer bildene til mindre størrelse dersom på mobil*/
+@media screen and (max-width: 485px) {
   .tilbud-container div {
-    width: 80vw !important;
+    width: 98vw !important;
   }
 }
+
 
 .topp-tekst-container {
   display: flex;
@@ -40,17 +42,20 @@
   border-radius: 1rem;
 }
 
+/*Hele grid systemet*/
 .tilbud-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(30rem, 3fr));
   width: 98vw;
 }
 
+/*Boksene som grid'en består av*/
 .tilbud-container div {
   color: white;
   text-align: center;
 }
 
+/*Bildene inni boksene*/
 .img {
   width: 95%;
   border-radius: 2rem;
