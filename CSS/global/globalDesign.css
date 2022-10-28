@@ -122,7 +122,7 @@ li .Dropdown-Fag {
 
 /*Gjør main content stor nok slik at footer blir plassert på bunnen*/
 main {
-    min-height: calc(100vh - 186.4px - 60.4px);
+  min-height: calc(100vh - 132.8px - 60.4px);
 }
 
 /*CSS for de ulike linjene*/

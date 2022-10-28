@@ -10,3 +10,8 @@
     padding-bottom: 1rem;
     padding-top: 1rem;
 }
+
+/*Gjør main content stor nok slik at footer blir plassert på bunnen*/
+main {
+    min-height: calc(100vh - 186.4px - 60.4px);
+}
