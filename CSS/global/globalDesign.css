@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 /*Bakgrunnsfarge for hele nettsiden*/
 body {
     background-color: #696969;
@@ -116,9 +120,14 @@ li .Dropdown-Fag {
     color: white;
   }
 
+/*Gjør main content stor nok slik at footer blir plassert på bunnen*/
+main {
+    min-height: calc(100vh - 186.4px - 60.4px);
+}
+
 /*CSS for de ulike linjene*/
 .type-utdanning-container {
-  display: inline-flex;
+  display: flex;
   justify-content: center;
   margin: 0;
 }

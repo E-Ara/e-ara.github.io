@@ -35,13 +35,12 @@
   }
  
   .Bilde1Settings {
-    justify-content: center;
     border-radius: 1rem;
     filter: grayscale(100%);
     transition: all 1s ease;
   }
 
-  .Bilde1Settings, h1 {
+  .Bilde, h1 {
     text-align: center;
     color: white;
   }
@@ -53,7 +52,6 @@
   }
 
   .Bilde2Settings {
-    justify-content: center;
     border-radius: 1rem;
     filter: grayscale(100%);
     transition: all 1s ease;
