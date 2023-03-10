@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Throw</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="Styles.css">
+    <link rel="icon" href="DiceImgs/DiceUnknown.png">
+</head>
+<body>
+
+    <a class="GoBack" href="/GameHub/indexHub.html">Go back</a>
+    <div class="container">
+        <div class="buttons">
+            <button id="OneDice" class="btn btn-primary" onclick="OneDiceClick()">One dice</button>
+            <button id="TwoDices" class="btn btn-primary" onclick="TwoDiceClick()">Two dices</button>
+            <button id="ThreeDices" class="btn btn-primary" onclick="ThreeDiceClick()">Three dices</button>
+            <button id="AmountDices" class="btn btn-primary" onclick="AmountDiceClick()">Choose how many</button>
+        </div>
+        <p class="Results" id="Results">Choose how many dices you want to roll</p>
+    </div>
+
+    <img src="DiceImgs/DiceUnknown.png" class="DiceUnknown">
+    <img src="DiceImgs/Dice6.png" class="Dice6">
+    <img src="DiceImgs/Dice4.png" class="Dice4">
+    <img src="DiceImgs/Dice2.png" class="Dice2">
+
+    <script src="AlgorithmDice.js"></script>
+</body>
+</html>

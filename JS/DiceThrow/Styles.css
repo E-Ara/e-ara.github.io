@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(#99f7ab, #abdf75);
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    background-color: antiquewhite;
+    width: 100vh;
+    height: 40vh;
+    border-radius: 2rem;
+    justify-content: center;
+    top: 25%;
+    left: 25%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.Results {
+    margin: 0;
+    padding: 2rem;
+}
+
+button {
+    padding: 0.5rem;
+}
+
+.DiceUnknown {
+    position: fixed;
+    height: 8rem;
+    left: 10%;
+    top: 20%;
+    animation: rotation infinite linear 4s;
+}
+
+.Dice6 {
+    position: fixed;
+    height: 8rem;
+    left: 80%;
+    top: 50%;
+    animation: scale infinite linear 2s;
+}
+
+.Dice4 {
+    position: fixed;
+    height: 8rem;
+    left: 80%;
+    top: 10%;
+    animation: rotation infinite linear 1.5s reverse;
+}
+
+.Dice2 {
+    position: fixed;
+    height: 8rem;
+    left: 20%;
+    top: 80%;
+    animation: jump infinite linear 1.5s reverse;
+}
+
+@keyframes rotation {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(359deg);}
+}
+
+@keyframes scale {
+    0% {transform: scale(0.5, 1)}
+    33% {transform: scale(1.2, 1.5)}
+    66% {transform: scale(1, 1.7)}
+    100% {transform: scale(0.5, 1)}
+}
+
+@keyframes jump {
+    0% {transform: rotateY(0deg)}
+    100% {transform: rotateY(359deg)}
+}
+
+.GoBack {
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+    padding: 0.5rem;
+    background-color: #4eab5f;
+    border-radius: 0.5rem;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+.GoBack:hover {
+    background-color: #1e6a2c;
+    color: gainsboro;
+}

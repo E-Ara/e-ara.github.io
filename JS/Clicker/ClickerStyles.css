@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(Icons/NormalBackground.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    overflow-x: hidden;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 1.5rem;
+}
+
+footer span {
+    color: white;
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+}
+
+.GoBack {
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+    padding: 0.5rem;
+    background-color: #d58562;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+.GoBack:hover {
+    background-color: #d37445;
+    color: gainsboro;
+}
+
+.NachoClick:active {
+    transform: scale(1.15, 1.15);
+}
+
+.containerNachoChips {
+    display: flex;
+    justify-content: space-around;
+}
+
+.containerUpgrades {
+    display: flex;
+    justify-content: center;
+}
+
+.NachoChips {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border-style: solid;
+    font-size: 1.5rem;
+    background-image: url(https://media.istockphoto.com/id/845552430/vector/tasty-colorful-mexican-nachos-seamless-pattern.jpg?s=612x612&w=0&k=20&c=41j31un8MJTtoDkh7L69u4Xvv07TY90ED1beGH1TjQo=);
+}
+
+.DoughFactories {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border-style: solid;
+    font-size: 1.5rem;
+    background-color: burlywood;
+}
+
+.FormStations {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border-style: solid;
+    font-size: 1.5rem;
+    background-color: mediumorchid;
+}
+
+.Ovens {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border-style: solid;
+    font-size: 1.5rem;
+    background-color: gray;
+}
+
+.NachoClick {
+    display: flex;
+    justify-content: center;
+    height: 15rem;
+}
+
+.ButtonsDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Prices {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Price {
+    padding: 0.5rem;
+    background-color: wheat;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
