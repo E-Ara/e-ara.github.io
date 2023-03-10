@@ -63,6 +63,7 @@ li a, .Drop-Knapp {
   text-align: right;
   vertical-align: auto;
   padding: 14px 16px;
+  border-radius: 0.5rem;
 }
 
 .Dropdown-Content {
@@ -71,6 +72,7 @@ li a, .Drop-Knapp {
   background-color: #333;
   min-width: 10rem;
   z-index: 1;
+  border-radius: 0.5rem;
 }
 
 li .Dropdown-Fag {
@@ -107,18 +109,18 @@ li .Dropdown-Fag {
   border-style: dashed;
   }
   
-  footer {
+footer {
     display: flex;
     justify-content: center;
     color: white;
     background-color: #333;
     padding: 5px;
     border-radius: 1rem;
-  }
+}
     
-  footer a {
+footer a {
     color: white;
-  }
+}
 
 /*Gjør main content stor nok slik at footer blir plassert på bunnen*/
 main {

@@ -9,6 +9,7 @@
     width: 100%;
     padding-bottom: 1rem;
     padding-top: 1rem;
+    filter: grayscale(75%);
 }
 
 /*Gjør main content stor nok slik at footer blir plassert på bunnen*/

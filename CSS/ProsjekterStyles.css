@@ -16,12 +16,18 @@ header h1 {
 
 .Prosjekter-container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   padding: 3rem;
 }
 
 .Prosjekter-container a {
   text-decoration: none;
+}
+
+.break {
+  flex-basis: 100%;
+  height: 0;
 }
 
 .Prosjekt1 img {
@@ -57,6 +63,32 @@ header h1 {
   text-align: center
 }
 
+.Prosjekt4 img {
+  height: 15vw;
+  border-radius: 1rem;
+  transition: all ease 0.5s;
+}
+
+.Prosjekt4-tekst {
+  color: white;
+  text-align: center
+}
+
+.Prosjekt5 img {
+  height: 15vw;
+  border-radius: 1rem;
+  transition: all ease 0.5s;
+}
+
+.Prosjekt5-tekst {
+  color: white;
+  text-align: center
+}
+
+.Prosjekt5 {
+  text-align: center;
+}
+
 .fag-boks {
   color: black;
   margin-top: 0.5rem;
@@ -77,6 +109,14 @@ header h1 {
   
   .Prosjekt3 img:hover {
     box-shadow: 18px 16px aquamarine;
+  }
+
+  .Prosjekt4 img:hover {
+    box-shadow: 18px 16px lawngreen;
+  }
+
+  .Prosjekt5 img:hover {
+    box-shadow: 18px 16px wheat;
   }
 }
 
@@ -106,6 +146,22 @@ header h1 {
   }
   
   .Prosjekt3 img {
+    height: 30vw;
+  }
+
+  .Prosjekt4 {
+    text-align: center;
+  }
+
+  .Prosjekt4 img {
+    height: 30vw;
+  }
+
+  .Prosjekt5 {
+    text-align: center;
+  }
+
+  .Prosjekt5 img {
     height: 30vw;
   }
 }
